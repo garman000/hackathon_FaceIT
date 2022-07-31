@@ -1,0 +1,20 @@
+.c-nav {
+  justify-content: space-between;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 1rem;
+  gap: 80rem;
+}
+
+.contact-btn {
+  background-color: var(--white);
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.contact-btn:hover {
+  background-color: rgb(240, 240, 240);
+}

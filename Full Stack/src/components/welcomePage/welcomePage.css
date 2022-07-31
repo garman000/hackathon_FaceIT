@@ -1,0 +1,83 @@
+.pageWrapper {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+.welcomeWrapper {
+    display: flex;
+    flex-direction: column;
+    color: var(--black);
+    font-size: 72px;
+    font-weight: 500;
+    padding-top: 13rem;
+
+}
+.welcomeBtn:hover{
+    background-color: var(--darkGray);
+}
+.welcomeWrapper>h3 {
+    font-size: 48px;
+    font-weight: 300;
+}
+.welcomeWrapper>button {
+    margin-top: 8rem;
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    padding: 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    width: fit-content;
+}
+.welcomeFace {
+    padding-top: 2rem;
+    width: 55%;
+}
+.sideInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    padding-top: 16rem ;
+}
+.motivation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.7rem;
+    font-weight: 600;
+    align-content: center;
+    color: var(--darkGray)
+}
+
+.faceSideControl {
+    border: 1px solid blue;
+}
+
+.backgroundStyle {
+    background-color: white;
+    height: 44rem;
+    width: 48rem;
+    border-radius: 50%;
+    position: relative;
+    top: -46rem;
+    right: 24rem;
+    z-index: -1;
+}
+.headerImgCtl {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.face {
+     height: 40%;
+}
+
+.ageControl {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    color: var(--darkGray)
+}
